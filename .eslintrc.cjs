@@ -11,4 +11,10 @@ module.exports = {
   rules: {
     'react-refresh/only-export-components': 'warn',
   },
+  ignorePatterns: [
+    "node_modules",
+    "build",
+    "dist",
+    "public"
+  ]
 }
